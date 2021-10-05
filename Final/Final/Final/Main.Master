@@ -1,0 +1,62 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Main.master.cs" Inherits="Final.Main" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Final</title>
+   <link rel="stylesheet" type="text/css" href="Style.css" />
+
+
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            
+            <table class="auto-style1">
+ <tr>
+ <td colspan="2" style="height:50px">&nbsp;
+<h2>Final</h2>
+ </td>
+ </tr>
+ <tr>
+<td class="auto-style5">&nbsp;
+ Меню
+                    <br />
+                    <asp:Menu ID="NavigationMenu" runat="server" CssClass="menu" EnableViewState="False" ForeColor="Red">
+                        <Items>
+                            
+                            <asp:MenuItem NavigateUrl="~/Student.aspx" Text="Внесение данных о студентах" Value="Внесение"></asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="~/SummaryBD.aspx" Text="Вывод информации о студентах" Value="Вывод"></asp:MenuItem>
+                      <asp:MenuItem NavigateUrl="~/SumMarks.aspx" Text="Сумма баллов по каждому студенту" Value="Вывод"></asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="~/Fivebest.aspx" Text="5 лучших студентов" Value="Вывод"></asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="~/Fiveworse.aspx" Text="5 худших студентов" Value="Вывод"></asp:MenuItem>
+                        </Items>
+                    </asp:Menu>
+ </td>
+                <td class="auto-style3">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </td>
+ </tr>
+ <tr>
+<td colspan="3" class="auto-style4">&nbsp;
+ <%--Нижний колонтитул--%>
+ <div id="temo_footer">
+ <ul class="footer_menu">
+ <li><a href="Student.aspx">Внесение данных о студентах</a></li>
+ <li><a href="SummaryBD.aspx">Вывод информации о студентах</a></li>
+     <li><a href="SumMarks.aspx">Сумма баллов по каждому студенту</a></li>
+ <li><a href="Fivebest.aspx">5 лучших студентов</a></li>
+     <li><a href="Fiveworse.aspx">5 худших студентов</a></li>
+
+ </ul>
+ </div>
+</td>
+ </tr>
+ </table>
+            
+        </div>
+    </form>
+</body>
+</html>

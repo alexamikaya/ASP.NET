@@ -93,10 +93,10 @@
     <Compile Include="Start.aspx.designer.cs">
       <DependentUpon>Start.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Summary.aspx.cs">
+    <Content Include="Summary.aspx.cs">
       <DependentUpon>Summary.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
-    </Compile>
+    </Content>
     <Compile Include="Summary.aspx.designer.cs">
       <DependentUpon>Summary.aspx</DependentUpon>
     </Compile>

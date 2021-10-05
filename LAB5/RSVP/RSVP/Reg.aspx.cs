@@ -24,7 +24,7 @@ namespace RSVP
                 } else
                 {
                     Response.Redirect("sorryyoucantcome.html");
-                }
+                } 
             }
         }
     }
