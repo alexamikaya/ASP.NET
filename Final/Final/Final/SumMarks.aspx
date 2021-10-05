@@ -1,6 +1,6 @@
 ﻿<%@ Page Language="C#" MasterPageFile="~/Main.Master" AutoEventWireup="true" CodeBehind="SumMarks.aspx.cs" Inherits="Final.SumMarks" %>
 <asp:Content ID="MainContent" ContentPlaceHolderID="ContentPlaceHolder1" runat="server"> 
-   <div>
+    <div>
     <h1>Сумма баллов всех студентов</h1>
     
         <div>
