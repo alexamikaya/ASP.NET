@@ -5,7 +5,8 @@
 <html>
 <head runat="server">
     <title>RSVP</title>
-    <link rel="stylesheet" type="text/css" href="Styles.css" />
+    <link rel="stylesheet" type="text/css" href="Styles.css" />
+
     <style type="text/css">
         .auto-style1 {
             width: 100%;
@@ -22,7 +23,8 @@
         <table class="auto-style1">
             <tr>
                 <td colspan="2" style="height:50px">&nbsp;
- <h2>RSVP</h2>
+ <h2>RSVP</h2>
+
  </td>
 
             </tr>
@@ -54,6 +56,9 @@
  <li><a href="Summary.aspx">Отчет о регистрации</a></li>
  <li><a href="About.aspx">Подробности</a></li>
  </ul>
+     <div class="footer">
+ <asp:Literal ID="VisitorLiteral" runat="server" />
+ </div>
      </div>
  </td>
             </tr>
