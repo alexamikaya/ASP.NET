@@ -25,6 +25,27 @@ ForeColor="Red">Адрес введен неверно!!!</asp:RegularExpression
 runat="server"></asp:TextBox>
      <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" ErrorMessage="Заполните поле ввода телефона" ForeColor="Red" ControlToValidate="phone">Не оставляйте поле пустым</asp:RequiredFieldValidator>
  </div>
+    <div>
+ Введите название доклада:
+ <asp:TextBox ID="TextBoxTitle" runat="server"
+Width="345px"></asp:TextBox>
+ </div>
+ <div>
+ Введите аннотацию доклада:
+ <asp:TextBox ID="TextBoxTextAnnot" runat="server"
+Width="345px"></asp:TextBox>
+ </div> 
+ 
+ <div>
+ Введите название доклада:
+ <asp:TextBox ID="TextBoxTitle2" runat="server"
+Width="345px"></asp:TextBox>
+ </div>
+ <div>
+ Введите аннотацию доклада:
+ <asp:TextBox ID="TextBoxTextAnnot2" runat="server"
+Width="345px"></asp:TextBox>
+</div>
  <div>
  <label>Вы будете делать доклад?</label>
  <asp:CheckBox ID="CheckBoxYN" runat="server" />

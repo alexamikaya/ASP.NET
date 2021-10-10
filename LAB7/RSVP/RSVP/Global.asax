@@ -1,2 +1,1 @@
-﻿<%@ Application Codebehind="Global.asax.cs" Inherits="RSVP" Language="C#" %>
-
+﻿<%@ Application Codebehind="Global.asax.cs" Inherits="RSVP.Global" Language="C#" %>
